@@ -1,0 +1,36 @@
+{
+  "name": "carcassonne-api",
+  "version": "1.0.0",
+  "description": "Backend of Web Browser implementation of board game Carcassonne",
+  "main": "app.ts",
+  "scripts": {
+    "start": "node dist/app.js",
+    "build": "tsc app.ts",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "carcassonne"
+  },
+  "keywords": [
+    "carcassonne",
+    "game",
+    "board game",
+    "browser",
+    "mobile",
+    "carcassonne pwa"
+  ],
+  "author": "Bernardo de Oliveira",
+  "license": "ISC",
+  "dependencies": {
+    "esm": "^3.2.25",
+    "module-alias": "^2.2.2"
+  },
+  "devDependencies": {
+    "ts-node": "^8.10.1",
+    "typescript": "^3.8.3"
+  },
+  "_moduleAliases": {
+    "@domain": "dist/domain"
+  }
+}
