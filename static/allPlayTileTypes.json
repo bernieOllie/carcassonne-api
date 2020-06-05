@@ -1,0 +1,1411 @@
+[
+    {
+        "type": 0,
+        "imageSource": "http://wikicarpedia.com/images/9/9b/Base_Game_C2_Tile_D.jpg",
+        "quantity": 1,
+        "features": [
+            {
+                "id": "BURG",
+                "adjacentFeatureIds": [
+                    "FARM_NORTH"
+                ]
+            },
+            {
+                "id": "FARM_NORTH",
+                "adjacentFeatureIds": [
+                    "BURG",
+                    "ROAD"
+                ]
+            },
+            {
+                "id": "ROAD",
+                "adjacentFeatureIds": [
+                    "FARM_NORTH",
+                    "FARM_SOUTH"
+                ]
+            },
+            {
+                "id": "FARM_SOUTH",
+                "adjacentFeatureIds": [
+                    "ROAD"
+                ]
+            }
+        ],
+        "edgeNorth": {
+            "type": "BURG",
+            "featureLinks": {
+                "first": "BURG"
+            }
+        },
+        "edgeEast": {
+            "type": "ROAD",
+            "featureLinks": {
+                "first": "FARM_NORTH",
+                "second": "ROAD",
+                "third": "FARM_SOUTH"
+            }
+        },
+        "edgeSouth": {
+            "type": "GRASS",
+            "featureLinks": {
+                "first": "FARM_SOUTH"
+            }
+        },
+        "edgeWest": {
+            "type": "ROAD",
+            "featureLinks": {
+                "first": "FARM_SOUTH",
+                "second": "ROAD",
+                "third": "FARM_NORTH"
+            }
+        }
+    },
+    {
+        "type": 1,
+        "imageSource": "http://wikicarpedia.com/images/e/e6/Base_Game_C2_Tile_A.jpg",
+        "quantity": 2,
+        "features": [
+            {
+                "id": "FARM",
+                "adjacentFeatureIds": [
+                    "MONASTERY",
+                    "ROAD"
+                ]
+            },
+            {
+                "id": "MONASTERY",
+                "adjacentFeatureIds": [
+                    "FARM",
+                    "ROAD"
+                ]
+            },
+            {
+                "id": "ROAD",
+                "adjacentFeatureIds": [
+                    "FARM",
+                    "MONASTERY"
+                ]
+            }
+        ],
+        "edgeNorth": {
+            "type": "GRASS",
+            "featureLinks": {
+                "first": "FARM"
+            }
+        },
+        "edgeEast": {
+            "type": "GRASS",
+            "featureLinks": {
+                "first": "FARM"
+            }
+        },
+        "edgeSouth": {
+            "type": "ROAD",
+            "featureLinks": {
+                "first": "FARM",
+                "second": "ROAD",
+                "third": "FARM"
+            }
+        },
+        "edgeWest": {
+            "type": "GRASS",
+            "featureLinks": {
+                "first": "FARM"
+            }
+        }
+    },
+    {
+        "type": 2,
+        "imageSource": "http://wikicarpedia.com/images/4/47/Base_Game_C2_Tile_B.jpg",
+        "quantity": 4,
+        "features": [
+            {
+                "id": "FARM",
+                "adjacentFeatureIds": [
+                    "MONASTERY"
+                ]
+            },
+            {
+                "id": "MONASTERY",
+                "adjacentFeatureIds": [
+                    "FARM"
+                ]
+            }
+        ],
+        "edgeNorth": {
+            "type": "GRASS",
+            "featureLinks": {
+                "first": "FARM"
+            }
+        },
+        "edgeEast": {
+            "type": "GRASS",
+            "featureLinks": {
+                "first": "FARM"
+            }
+        },
+        "edgeSouth": {
+            "type": "GRASS",
+            "featureLinks": {
+                "first": "FARM"
+            }
+        },
+        "edgeWest": {
+            "type": "GRASS",
+            "featureLinks": {
+                "first": "FARM"
+            }
+        }
+    },
+    {
+        "type": 3,
+        "imageSource": "http://wikicarpedia.com/images/9/9a/Base_Game_C2_Tile_C.jpg",
+        "quantity": 1,
+        "features": [
+            {
+                "id": "BURG_SHIELD",
+                "adjacentFeatureIds": []
+            }
+        ],
+        "edgeNorth": {
+            "type": "BURG",
+            "featureLinks": {
+                "first": "BURG_SHIELD"
+            }
+        },
+        "edgeEast": {
+            "type": "BURG",
+            "featureLinks": {
+                "first": "BURG_SHIELD"
+            }
+        },
+        "edgeSouth": {
+            "type": "BURG",
+            "featureLinks": {
+                "first": "BURG_SHIELD"
+            }
+        },
+        "edgeWest": {
+            "type": "BURG",
+            "featureLinks": {
+                "first": "BURG_SHIELD"
+            }
+        }
+    },
+    {
+        "type": 4,
+        "imageSource": "http://wikicarpedia.com/images/9/9b/Base_Game_C2_Tile_D.jpg",
+        "quantity": 3,
+        "features": [
+            {
+                "id": "BURG",
+                "adjacentFeatureIds": [
+                    "FARM_NORTH"
+                ]
+            },
+            {
+                "id": "FARM_NORTH",
+                "adjacentFeatureIds": [
+                    "BURG",
+                    "ROAD"
+                ]
+            },
+            {
+                "id": "ROAD",
+                "adjacentFeatureIds": [
+                    "FARM_NORTH",
+                    "FARM_SOUTH"
+                ]
+            },
+            {
+                "id": "FARM_SOUTH",
+                "adjacentFeatureIds": [
+                    "ROAD"
+                ]
+            }
+        ],
+        "edgeNorth": {
+            "type": "BURG",
+            "featureLinks": {
+                "first": "BURG"
+            }
+        },
+        "edgeEast": {
+            "type": "ROAD",
+            "featureLinks": {
+                "first": "FARM_NORTH",
+                "second": "ROAD",
+                "third": "FARM_SOUTH"
+            }
+        },
+        "edgeSouth": {
+            "type": "GRASS",
+            "featureLinks": {
+                "first": "FARM_SOUTH"
+            }
+        },
+        "edgeWest": {
+            "type": "ROAD",
+            "featureLinks": {
+                "first": "FARM_SOUTH",
+                "second": "ROAD",
+                "third": "FARM_NORTH"
+            }
+        }
+    },
+    {
+        "type": 5,
+        "imageSource": "http://wikicarpedia.com/images/8/8d/Base_Game_C2_Tile_E.jpg",
+        "quantity": 5,
+        "features": [
+            {
+                "id": "BURG",
+                "adjacentFeatureIds": [
+                    "FARM"
+                ]
+            },
+            {
+                "id": "FARM",
+                "adjacentFeatureIds": [
+                    "BURG"
+                ]
+            }
+        ],
+        "edgeNorth": {
+            "type": "BURG",
+            "featureLinks": {
+                "first": "BURG"
+            }
+        },
+        "edgeEast": {
+            "type": "GRASS",
+            "featureLinks": {
+                "first": "FARM"
+            }
+        },
+        "edgeSouth": {
+            "type": "GRASS",
+            "featureLinks": {
+                "first": "FARM"
+            }
+        },
+        "edgeWest": {
+            "type": "GRASS",
+            "featureLinks": {
+                "first": "FARM"
+            }
+        }
+    },
+    {
+        "type": 6,
+        "imageSource": "http://wikicarpedia.com/images/d/d3/Base_Game_C2_Tile_F.jpg",
+        "quantity": 2,
+        "features": [
+            {
+                "id": "FARM_NORTH",
+                "adjacentFeatureIds": [
+                    "BURG_SHIELD"
+                ]
+            },
+            {
+                "id": "BURG_SHIELD",
+                "adjacentFeatureIds": [
+                    "FARM_NORTH",
+                    "FARM_SOUTH"
+                ]
+            },
+            {
+                "id": "FARM_SOUTH",
+                "adjacentFeatureIds": [
+                    "BURG_SHIELD"
+                ]
+            }
+        ],
+        "edgeNorth": {
+            "type": "GRASS",
+            "featureLinks": {
+                "first": "FARM_NORTH"
+            }
+        },
+        "edgeEast": {
+            "type": "BURG",
+            "featureLinks": {
+                "first": "BURG_SHIELD"
+            }
+        },
+        "edgeSouth": {
+            "type": "GRASS",
+            "featureLinks": {
+                "first": "FARM_SOUTH"
+            }
+        },
+        "edgeWest": {
+            "type": "BURG",
+            "featureLinks": {
+                "first": "BURG_SHIELD"
+            }
+        }
+    },
+    {
+        "type": 7,
+        "imageSource": "http://wikicarpedia.com/images/1/1c/Base_Game_C2_Tile_G.jpg",
+        "quantity": 1,
+        "features": [
+            {
+                "id": "FARM_NORTH",
+                "adjacentFeatureIds": [
+                    "BURG"
+                ]
+            },
+            {
+                "id": "BURG",
+                "adjacentFeatureIds": [
+                    "FARM_NORTH",
+                    "FARM_SOUTH"
+                ]
+            },
+            {
+                "id": "FARM_SOUTH",
+                "adjacentFeatureIds": [
+                    "BURG"
+                ]
+            }
+        ],
+        "edgeNorth": {
+            "type": "GRASS",
+            "featureLinks": {
+                "first": "FARM_NORTH"
+            }
+        },
+        "edgeEast": {
+            "type": "BURG",
+            "featureLinks": {
+                "first": "BURG"
+            }
+        },
+        "edgeSouth": {
+            "type": "GRASS",
+            "featureLinks": {
+                "first": "FARM_SOUTH"
+            }
+        },
+        "edgeWest": {
+            "type": "BURG",
+            "featureLinks": {
+                "first": "BURG"
+            }
+        }
+    },
+    {
+        "type": 8,
+        "imageSource": "http://wikicarpedia.com/images/f/fa/Base_Game_C2_Tile_H.jpg",
+        "quantity": 3,
+        "features": [
+            {
+                "id": "FARM",
+                "adjacentFeatureIds": [
+                    "BURG_EAST",
+                    "BURG_WEST"
+                ]
+            },
+            {
+                "id": "BURG_EAST",
+                "adjacentFeatureIds": [
+                    "FARM"
+                ]
+            },
+            {
+                "id": "BURG_WEST",
+                "adjacentFeatureIds": [
+                    "FARM"
+                ]
+            }
+        ],
+        "edgeNorth": {
+            "type": "GRASS",
+            "featureLinks": {
+                "first": "FARM"
+            }
+        },
+        "edgeEast": {
+            "type": "BURG",
+            "featureLinks": {
+                "first": "BURG_EAST"
+            }
+        },
+        "edgeSouth": {
+            "type": "GRASS",
+            "featureLinks": {
+                "first": "FARM"
+            }
+        },
+        "edgeWest": {
+            "type": "BURG",
+            "featureLinks": {
+                "first": "BURG_WEST"
+            }
+        }
+    },
+    {
+        "type": 9,
+        "imageSource": "http://wikicarpedia.com/images/f/fa/Base_Game_C2_Tile_I.jpg",
+        "quantity": 2,
+        "features": [
+            {
+                "id": "BURG_NORTH",
+                "adjacentFeatureIds": [
+                    "BURG_EAST",
+                    "FARM"
+                ]
+            },
+            {
+                "id": "BURG_EAST",
+                "adjacentFeatureIds": [
+                    "BURG_NORTH",
+                    "FARM"
+                ]
+            },
+            {
+                "id": "FARM",
+                "adjacentFeatureIds": [
+                    "BURG_NORTH",
+                    "BURG_EAST"
+                ]
+            }
+        ],
+        "edgeNorth": {
+            "type": "BURG",
+            "featureLinks": {
+                "first": "BURG_NORTH"
+            }
+        },
+        "edgeEast": {
+            "type": "BURG",
+            "featureLinks": {
+                "first": "BURG_EAST"
+            }
+        },
+        "edgeSouth": {
+            "type": "GRASS",
+            "featureLinks": {
+                "first": "FARM"
+            }
+        },
+        "edgeWest": {
+            "type": "GRASS",
+            "featureLinks": {
+                "first": "FARM"
+            }
+        }
+    },
+    {
+        "type": 10,
+        "imageSource": "http://wikicarpedia.com/images/f/fa/Base_Game_C2_Tile_J.jpg",
+        "quantity": 3,
+        "features": [
+            {
+                "id": "BURG",
+                "adjacentFeatureIds": [
+                    "FARM_NORTH_WEST"
+                ]
+            },
+            {
+                "id": "FARM_NORTH_WEST",
+                "adjacentFeatureIds": [
+                    "BURG",
+                    "ROAD"
+                ]
+            },
+            {
+                "id": "ROAD",
+                "adjacentFeatureIds": [
+                    "FARM_NORTH_WEST",
+                    "FARM_SOUTH_EAST"
+                ]
+            },
+            {
+                "id": "FARM_SOUTH_EAST",
+                "adjacentFeatureIds": [
+                    "ROAD"
+                ]
+            }
+        ],
+        "edgeNorth": {
+            "type": "BURG",
+            "featureLinks": {
+                "first": "BURG"
+            }
+        },
+        "edgeEast": {
+            "type": "ROAD",
+            "featureLinks": {
+                "first": "FARM_NORTH_WEST",
+                "second": "ROAD",
+                "third": "FARM_SOUTH_EAST"
+            }
+        },
+        "edgeSouth": {
+            "type": "ROAD",
+            "featureLinks": {
+                "first": "FARM_SOUTH_EAST",
+                "second": "ROAD",
+                "third": "FARM_NORTH_WEST"
+            }
+        },
+        "edgeWest": {
+            "type": "GRASS",
+            "featureLinks": {
+                "first": "FARM_NORTH_WEST"
+            }
+        }
+    },
+    {
+        "type": 11,
+        "imageSource": "http://wikicarpedia.com/images/f/fa/Base_Game_C2_Tile_K.jpg",
+        "quantity": 3,
+        "features": [
+            {
+                "id": "BURG",
+                "adjacentFeatureIds": [
+                    "FARM_NORTH_EAST"
+                ]
+            },
+            {
+                "id": "FARM_NORTH_EAST",
+                "adjacentFeatureIds": [
+                    "BURG",
+                    "ROAD"
+                ]
+            },
+            {
+                "id": "ROAD",
+                "adjacentFeatureIds": [
+                    "FARM_NORTH_EAST",
+                    "FARM_SOUTH_WEST"
+                ]
+            },
+            {
+                "id": "FARM_SOUTH_WEST",
+                "adjacentFeatureIds": [
+                    "ROAD"
+                ]
+            }
+        ],
+        "edgeNorth": {
+            "type": "BURG",
+            "featureLinks": {
+                "first": "BURG"
+            }
+        },
+        "edgeEast": {
+            "type": "GRASS",
+            "featureLinks": {
+                "first": "FARM_NORTH_EAST"
+            }
+        },
+        "edgeSouth": {
+            "type": "ROAD",
+            "featureLinks": {
+                "first": "FARM_NORTH_EAST",
+                "second": "ROAD",
+                "third": "FARM_SOUTH_WEST"
+            }
+        },
+        "edgeWest": {
+            "type": "ROAD",
+            "featureLinks": {
+                "first": "FARM_SOUTH_WEST",
+                "second": "ROAD",
+                "third": "FARM_NORTH_EAST"
+            }
+        }
+    },
+    {
+        "type": 12,
+        "imageSource": "http://wikicarpedia.com/images/f/fa/Base_Game_C2_Tile_L.jpg",
+        "quantity": 3,
+        "features": [
+            {
+                "id": "BURG",
+                "adjacentFeatureIds": [
+                    "FARM_NORTH"
+                ]
+            },
+            {
+                "id": "FARM_NORTH",
+                "adjacentFeatureIds": [
+                    "BURG",
+                    "ROAD_EAST",
+                    "ROAD_WEST"
+                ]
+            },
+            {
+                "id": "ROAD_EAST",
+                "adjacentFeatureIds": [
+                    "FARM_NORTH",
+                    "FARM_SOUTH_EAST"
+                ]
+            },
+            {
+                "id": "FARM_SOUTH_EAST",
+                "adjacentFeatureIds": [
+                    "ROAD_EAST",
+                    "ROAD_SOUTH"
+                ]
+            },
+            {
+                "id": "ROAD_SOUTH",
+                "adjacentFeatureIds": [
+                    "FARM_SOUTH_EAST",
+                    "FARM_SOUTH_WEST"
+                ]
+            },
+            {
+                "id": "FARM_SOUTH_WEST",
+                "adjacentFeatureIds": [
+                    "ROAD_SOUTH",
+                    "ROAD_WEST"
+                ]
+            },
+            {
+                "id": "ROAD_WEST",
+                "adjacentFeatureIds": [
+                    "FARM_SOUTH_WEST",
+                    "FARM_NORTH"
+                ]
+            }
+        ],
+        "edgeNorth": {
+            "type": "BURG",
+            "featureLinks": {
+                "first": "BURG"
+            }
+        },
+        "edgeEast": {
+            "type": "ROAD",
+            "featureLinks": {
+                "first": "FARM_NORTH",
+                "second": "ROAD_EAST",
+                "third": "FARM_SOUTH_EAST"
+            }
+        },
+        "edgeSouth": {
+            "type": "ROAD",
+            "featureLinks": {
+                "first": "FARM_SOUTH_EAST",
+                "second": "ROAD_SOUTH",
+                "third": "FARM_SOUTH_WEST"
+            }
+        },
+        "edgeWest": {
+            "type": "ROAD",
+            "featureLinks": {
+                "first": "FARM_SOUTH_WEST",
+                "second": "ROAD_WEST",
+                "third": "FARM_NORTH"
+            }
+        }
+    },
+    {
+        "type": 13,
+        "imageSource": "http://wikicarpedia.com/images/f/fa/Base_Game_C2_Tile_M.jpg",
+        "quantity": 2,
+        "features": [
+            {
+                "id": "BURG_SHIELD",
+                "adjacentFeatureIds": [
+                    "FARM"
+                ]
+            },
+            {
+                "id": "FARM",
+                "adjacentFeatureIds": [
+                    "BURG_SHIELD"
+                ]
+            }
+        ],
+        "edgeNorth": {
+            "type": "BURG",
+            "featureLinks": {
+                "first": "BURG_SHIELD"
+            }
+        },
+        "edgeEast": {
+            "type": "BURG",
+            "featureLinks": {
+                "first": "BURG_SHIELD"
+            }
+        },
+        "edgeSouth": {
+            "type": "GRASS",
+            "featureLinks": {
+                "first": "FARM"
+            }
+        },
+        "edgeWest": {
+            "type": "GRASS",
+            "featureLinks": {
+                "first": "FARM"
+            }
+        }
+    },
+    {
+        "type": 14,
+        "imageSource": "http://wikicarpedia.com/images/f/fa/Base_Game_C2_Tile_N.jpg",
+        "quantity": 3,
+        "features": [
+            {
+                "id": "BURG",
+                "adjacentFeatureIds": [
+                    "FARM"
+                ]
+            },
+            {
+                "id": "FARM",
+                "adjacentFeatureIds": [
+                    "BURG"
+                ]
+            }
+        ],
+        "edgeNorth": {
+            "type": "BURG",
+            "featureLinks": {
+                "first": "BURG"
+            }
+        },
+        "edgeEast": {
+            "type": "BURG",
+            "featureLinks": {
+                "first": "BURG"
+            }
+        },
+        "edgeSouth": {
+            "type": "GRASS",
+            "featureLinks": {
+                "first": "FARM"
+            }
+        },
+        "edgeWest": {
+            "type": "GRASS",
+            "featureLinks": {
+                "first": "FARM"
+            }
+        }
+    },
+    {
+        "type": 15,
+        "imageSource": "http://wikicarpedia.com/images/f/fa/Base_Game_C2_Tile_O.jpg",
+        "quantity": 2,
+        "features": [
+            {
+                "id": "BURG_SHIELD",
+                "adjacentFeatureIds": [
+                    "FARM_NORTH_WEST"
+                ]
+            },
+            {
+                "id": "FARM_NORTH_WEST",
+                "adjacentFeatureIds": [
+                    "BURG_SHIELD",
+                    "ROAD"
+                ]
+            },
+            {
+                "id": "ROAD",
+                "adjacentFeatureIds": [
+                    "FARM_NORTH_WEST",
+                    "FARM_SOUTH_EAST"
+                ]
+            },
+            {
+                "id": "FARM_SOUTH_EAST",
+                "adjacentFeatureIds": [
+                    "ROAD"
+                ]
+            }
+        ],
+        "edgeNorth": {
+            "type": "BURG",
+            "featureLinks": {
+                "first": "BURG_SHIELD"
+            }
+        },
+        "edgeEast": {
+            "type": "ROAD",
+            "featureLinks": {
+                "first": "FARM_NORTH_WEST",
+                "second": "ROAD",
+                "third": "FARM_SOUTH_EAST"
+            }
+        },
+        "edgeSouth": {
+            "type": "ROAD",
+            "featureLinks": {
+                "first": "FARM_SOUTH_EAST",
+                "second": "ROAD",
+                "third": "FARM_NORTH_WEST"
+            }
+        },
+        "edgeWest": {
+            "type": "BURG",
+            "featureLinks": {
+                "first": "BURG_SHIELD"
+            }
+        }
+    },
+    {
+        "type": 16,
+        "imageSource": "http://wikicarpedia.com/images/f/fa/Base_Game_C2_Tile_P.jpg",
+        "quantity": 3,
+        "features": [
+            {
+                "id": "BURG",
+                "adjacentFeatureIds": [
+                    "FARM_NORTH_WEST"
+                ]
+            },
+            {
+                "id": "FARM_NORTH_WEST",
+                "adjacentFeatureIds": [
+                    "BURG",
+                    "ROAD"
+                ]
+            },
+            {
+                "id": "ROAD",
+                "adjacentFeatureIds": [
+                    "FARM_NORTH_WEST",
+                    "FARM_SOUTH_EAST"
+                ]
+            },
+            {
+                "id": "FARM_SOUTH_EAST",
+                "adjacentFeatureIds": [
+                    "ROAD"
+                ]
+            }
+        ],
+        "edgeNorth": {
+            "type": "BURG",
+            "featureLinks": {
+                "first": "BURG"
+            }
+        },
+        "edgeEast": {
+            "type": "ROAD",
+            "featureLinks": {
+                "first": "FARM_NORTH_WEST",
+                "second": "ROAD",
+                "third": "FARM_SOUTH_EAST"
+            }
+        },
+        "edgeSouth": {
+            "type": "ROAD",
+            "featureLinks": {
+                "first": "FARM_SOUTH_EAST",
+                "second": "ROAD",
+                "third": "FARM_NORTH_WEST"
+            }
+        },
+        "edgeWest": {
+            "type": "BURG",
+            "featureLinks": {
+                "first": "BURG"
+            }
+        }
+    },
+    {
+        "type": 17,
+        "imageSource": "http://wikicarpedia.com/images/f/fa/Base_Game_C2_Tile_Q.jpg",
+        "quantity": 1,
+        "features": [
+            {
+                "id": "BURG_SHIELD",
+                "adjacentFeatureIds": [
+                    "FARM"
+                ]
+            },
+            {
+                "id": "FARM",
+                "adjacentFeatureIds": [
+                    "BURG_SHIELD"
+                ]
+            }
+        ],
+        "edgeNorth": {
+            "type": "BURG",
+            "featureLinks": {
+                "first": "BURG_SHIELD"
+            }
+        },
+        "edgeEast": {
+            "type": "BURG",
+            "featureLinks": {
+                "first": "BURG_SHIELD"
+            }
+        },
+        "edgeSouth": {
+            "type": "GRASS",
+            "featureLinks": {
+                "first": "FARM"
+            }
+        },
+        "edgeWest": {
+            "type": "BURG",
+            "featureLinks": {
+                "first": "BURG_SHIELD"
+            }
+        }
+    },
+    {
+        "type": 18,
+        "imageSource": "http://wikicarpedia.com/images/f/fa/Base_Game_C2_Tile_R.jpg",
+        "quantity": 3,
+        "features": [
+            {
+                "id": "BURG",
+                "adjacentFeatureIds": [
+                    "FARM"
+                ]
+            },
+            {
+                "id": "FARM",
+                "adjacentFeatureIds": [
+                    "BURG"
+                ]
+            }
+        ],
+        "edgeNorth": {
+            "type": "BURG",
+            "featureLinks": {
+                "first": "BURG"
+            }
+        },
+        "edgeEast": {
+            "type": "BURG",
+            "featureLinks": {
+                "first": "BURG"
+            }
+        },
+        "edgeSouth": {
+            "type": "GRASS",
+            "featureLinks": {
+                "first": "FARM"
+            }
+        },
+        "edgeWest": {
+            "type": "BURG",
+            "featureLinks": {
+                "first": "BURG"
+            }
+        }
+    },
+    {
+        "type": 19,
+        "imageSource": "http://wikicarpedia.com/images/f/fa/Base_Game_C2_Tile_S.jpg",
+        "quantity": 2,
+        "features": [
+            {
+                "id": "BURG_SHIELD",
+                "adjacentFeatureIds": [
+                    "FARM_EAST",
+                    "ROAD",
+                    "FARM_WEST"
+                ]
+            },
+            {
+                "id": "FARM_EAST",
+                "adjacentFeatureIds": [
+                    "BURG_SHIELD",
+                    "ROAD"
+                ]
+            },
+            {
+                "id": "ROAD",
+                "adjacentFeatureIds": [
+                    "BURG_SHIELD",
+                    "FARM_EAST",
+                    "FARM_WEST"
+                ]
+            },
+            {
+                "id": "FARM_WEST",
+                "adjacentFeatureIds": [
+                    "BURG_SHIELD",
+                    "ROAD"
+                ]
+            }
+        ],
+        "edgeNorth": {
+            "type": "BURG",
+            "featureLinks": {
+                "first": "BURG_SHIELD"
+            }
+        },
+        "edgeEast": {
+            "type": "BURG",
+            "featureLinks": {
+                "first": "BURG_SHIELD"
+            }
+        },
+        "edgeSouth": {
+            "type": "ROAD",
+            "featureLinks": {
+                "first": "FARM_EAST",
+                "second": "ROAD",
+                "third": "FARM_WEST"
+            }
+        },
+        "edgeWest": {
+            "type": "BURG",
+            "featureLinks": {
+                "first": "BURG_SHIELD"
+            }
+        }
+    },
+    {
+        "type": 20,
+        "imageSource": "http://wikicarpedia.com/images/f/fa/Base_Game_C2_Tile_T.jpg",
+        "quantity": 1,
+        "features": [
+            {
+                "id": "BURG",
+                "adjacentFeatureIds": [
+                    "FARM_EAST",
+                    "ROAD",
+                    "FARM_WEST"
+                ]
+            },
+            {
+                "id": "FARM_EAST",
+                "adjacentFeatureIds": [
+                    "BURG",
+                    "ROAD"
+                ]
+            },
+            {
+                "id": "ROAD",
+                "adjacentFeatureIds": [
+                    "BURG",
+                    "FARM_EAST",
+                    "FARM_WEST"
+                ]
+            },
+            {
+                "id": "FARM_WEST",
+                "adjacentFeatureIds": [
+                    "BURG",
+                    "ROAD"
+                ]
+            }
+        ],
+        "edgeNorth": {
+            "type": "BURG",
+            "featureLinks": {
+                "first": "BURG"
+            }
+        },
+        "edgeEast": {
+            "type": "BURG",
+            "featureLinks": {
+                "first": "BURG"
+            }
+        },
+        "edgeSouth": {
+            "type": "ROAD",
+            "featureLinks": {
+                "first": "FARM_EAST",
+                "second": "ROAD",
+                "third": "FARM_WEST"
+            }
+        },
+        "edgeWest": {
+            "type": "BURG",
+            "featureLinks": {
+                "first": "BURG"
+            }
+        }
+    },
+    {
+        "type": 21,
+        "imageSource": "http://wikicarpedia.com/images/f/fa/Base_Game_C2_Tile_U.jpg",
+        "quantity": 8,
+        "features": [
+            {
+                "id": "ROAD",
+                "adjacentFeatureIds": [
+                    "FARM_EAST",
+                    "FARM_WEST"
+                ]
+            },
+            {
+                "id": "FARM_EAST",
+                "adjacentFeatureIds": [
+                    "ROAD"
+                ]
+            },
+            {
+                "id": "FARM_WEST",
+                "adjacentFeatureIds": [
+                    "ROAD"
+                ]
+            }
+        ],
+        "edgeNorth": {
+            "type": "ROAD",
+            "featureLinks": {
+                "first": "FARM_WEST",
+                "second": "ROAD",
+                "third": "FARM_EAST"
+            }
+        },
+        "edgeEast": {
+            "type": "GRASS",
+            "featureLinks": {
+                "first": "FARM_EAST"
+            }
+        },
+        "edgeSouth": {
+            "type": "ROAD",
+            "featureLinks": {
+                "first": "FARM_EAST",
+                "second": "ROAD",
+                "third": "FARM_WEST"
+            }
+        },
+        "edgeWest": {
+            "type": "GRASS",
+            "featureLinks": {
+                "first": "FARM_WEST"
+            }
+        }
+    },
+    {
+        "type": 22,
+        "imageSource": "http://wikicarpedia.com/images/f/fa/Base_Game_C2_Tile_V.jpg",
+        "quantity": 9,
+        "features": [
+            {
+                "id": "FARM_NORTH_EAST",
+                "adjacentFeatureIds": [
+                    "ROAD"
+                ]
+            },
+            {
+                "id": "ROAD",
+                "adjacentFeatureIds": [
+                    "FARM_NORTH_EAST",
+                    "FARM_SOUTH_WEST"
+                ]
+            },
+            {
+                "id": "FARM_SOUTH_WEST",
+                "adjacentFeatureIds": [
+                    "ROAD"
+                ]
+            }
+        ],
+        "edgeNorth": {
+            "type": "GRASS",
+            "featureLinks": {
+                "first": "FARM_NORTH_EAST"
+            }
+        },
+        "edgeEast": {
+            "type": "GRASS",
+            "featureLinks": {
+                "first": "FARM_NORTH_EAST"
+            }
+        },
+        "edgeSouth": {
+            "type": "ROAD",
+            "featureLinks": {
+                "first": "FARM_NORTH_EAST",
+                "second": "ROAD",
+                "third": "FARM_SOUTH_WEST"
+            }
+        },
+        "edgeWest": {
+            "type": "ROAD",
+            "featureLinks": {
+                "first": "FARM_SOUTH_WEST",
+                "second": "ROAD",
+                "third": "FARM_NORTH_EAST"
+            }
+        }
+    },
+    {
+        "type": 23,
+        "imageSource": "http://wikicarpedia.com/images/f/fa/Base_Game_C2_Tile_W.jpg",
+        "quantity": 4,
+        "features": [
+            {
+                "id": "FARM_NORTH",
+                "adjacentFeatureIds": [
+                    "ROAD_EAST",
+                    "ROAD_WEST"
+                ]
+            },
+            {
+                "id": "ROAD_EAST",
+                "adjacentFeatureIds": [
+                    "FARM_NORTH",
+                    "FARM_SOUTH_EAST"
+                ]
+            },
+            {
+                "id": "FARM_SOUTH_EAST",
+                "adjacentFeatureIds": [
+                    "ROAD_EAST",
+                    "ROAD_SOUTH"
+                ]
+            },
+            {
+                "id": "ROAD_SOUTH",
+                "adjacentFeatureIds": [
+                    "FARM_SOUTH_EAST",
+                    "FARM_SOUTH_WEST"
+                ]
+            },
+            {
+                "id": "FARM_SOUTH_WEST",
+                "adjacentFeatureIds": [
+                    "ROAD_SOUTH",
+                    "ROAD_WEST"
+                ]
+            },
+            {
+                "id": "ROAD_WEST",
+                "adjacentFeatureIds": [
+                    "FARM_NORTH",
+                    "FARM_SOUTH_WEST"
+                ]
+            }
+        ],
+        "edgeNorth": {
+            "type": "GRASS",
+            "featureLinks": {
+                "first": "FARM_NORTH"
+            }
+        },
+        "edgeEast": {
+            "type": "ROAD",
+            "featureLinks": {
+                "first": "FARM_NORTH",
+                "second": "ROAD_EAST",
+                "third": "FARM_SOUTH_EAST"
+            }
+        },
+        "edgeSouth": {
+            "type": "ROAD",
+            "featureLinks": {
+                "first": "FARM_SOUTH_EAST",
+                "second": "ROAD_SOUTH",
+                "third": "FARM_SOUTH_WEST"
+            }
+        },
+        "edgeWest": {
+            "type": "ROAD",
+            "featureLinks": {
+                "first": "FARM_SOUTH_WEST",
+                "second": "ROAD_WEST",
+                "third": "FARM_NORTH"
+            }
+        }
+    },
+    {
+        "type": 24,
+        "imageSource": "http://wikicarpedia.com/images/f/fa/Base_Game_C2_Tile_X.jpg",
+        "quantity": 1,
+        "features": [
+            {
+                "id": "ROAD_NORTH",
+                "adjacentFeatureIds": [
+                    "FARM_NORTH_EAST",
+                    "FARM_NORTH_WEST"
+                ]
+            },
+            {
+                "id": "FARM_NORTH_EAST",
+                "adjacentFeatureIds": [
+                    "ROAD_NORTH",
+                    "ROAD_EAST"
+                ]
+            },
+            {
+                "id": "ROAD_EAST",
+                "adjacentFeatureIds": [
+                    "FARM_NORTH_EAST",
+                    "FARM_SOUTH_EAST"
+                ]
+            },
+            {
+                "id": "FARM_SOUTH_EAST",
+                "adjacentFeatureIds": [
+                    "ROAD_EAST",
+                    "ROAD_SOUTH"
+                ]
+            },
+            {
+                "id": "ROAD_SOUTH",
+                "adjacentFeatureIds": [
+                    "FARM_SOUTH_EAST",
+                    "FARM_SOUTH_WEST"
+                ]
+            },
+            {
+                "id": "FARM_SOUTH_WEST",
+                "adjacentFeatureIds": [
+                    "ROAD_SOUTH",
+                    "ROAD_WEST"
+                ]
+            },
+            {
+                "id": "ROAD_WEST",
+                "adjacentFeatureIds": [
+                    "FARM_NORTH_WEST",
+                    "FARM_SOUTH_WEST"
+                ]
+            },
+            {
+                "id": "FARM_NORTH_WEST",
+                "adjacentFeatureIds": [
+                    "ROAD_NORTH",
+                    "ROAD_WEST"
+                ]
+            }
+        ],
+        "edgeNorth": {
+            "type": "ROAD",
+            "featureLinks": {
+                "first": "FARM_NORTH_WEST",
+                "second": "ROAD_NORTH",
+                "third": "FARM_NORTH_EAST"
+            }
+        },
+        "edgeEast": {
+            "type": "ROAD",
+            "featureLinks": {
+                "first": "FARM_NORTH_EAST",
+                "second": "ROAD_EAST",
+                "third": "FARM_SOUTH_EAST"
+            }
+        },
+        "edgeSouth": {
+            "type": "ROAD",
+            "featureLinks": {
+                "first": "FARM_SOUTH_EAST",
+                "second": "ROAD_SOUTH",
+                "third": "FARM_SOUTH_WEST"
+            }
+        },
+        "edgeWest": {
+            "type": "ROAD",
+            "featureLinks": {
+                "first": "FARM_SOUTH_WEST",
+                "second": "ROAD_WEST",
+                "third": "FARM_NORTH_WEST"
+            }
+        }
+    }
+]
