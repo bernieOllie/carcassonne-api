@@ -1,5 +1,5 @@
 export enum EdgeType {
-    BURG,
-    GRASS,
-    ROAD
+    BURG = 'BURG',
+    GRASS = 'GRASS',
+    ROAD = 'ROAD'
 }
